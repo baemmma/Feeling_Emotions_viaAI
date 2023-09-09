@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/emnahammami/code/baemmma/student-challenges/curriculum/Artefact project/Real_time_Decoding_emotion_via_facial_expressions/deployment/venv/bin/python3.11" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
