@@ -6,7 +6,7 @@ from PIL import Image
 from model import FaceEmotionModel
 
 # Streamlit UI
-st.markdown("<h1 style='text-align: center; font-weight: bold;'>Feeling Emotions via AI</h1>", unsafe_allow_html=True)
+st.title("Feeling Emotions via AI")
 st.subheader("Created by BAHRI Emna")
 st.write("emnabahri@yahoo.fr")
 
@@ -60,3 +60,4 @@ while cap.isOpened():
         break
 
 cap.release()
+cv2.destroyAllWindows()
