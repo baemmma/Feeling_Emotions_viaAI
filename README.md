@@ -37,10 +37,6 @@ This project aims to decipher human emotions through real-time facial expression
 2. Utilize Google Cloud's infrastructure to deploy your Streamlit app, making it accessible via a web URL.
 3. Share your deployed app with the world to explore the fascinating realm of emotion decoding.
 
-### About the Author
-
-This project was created by Emna BAHRI from Artefact.
-
 ### Dedication
 
 This project is dedicated to individuals with autism, demonstrating the potential of AI to enhance emotional understanding and interaction.
